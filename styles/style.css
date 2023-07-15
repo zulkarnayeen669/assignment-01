@@ -82,4 +82,66 @@ body{font-family: 'Open Sans', sans-serif;margin:0px
                     }
                     /* Example-Flowers */
                     .example-pic{ display: flex;
-                        gap: 24px;}
+                        gap: 24px;
+                    justify-content: center;
+               }
+               .email{border: none;border-radius: 8px;
+                background: #FFF;
+               
+                font-family: Lato;
+                font-size: 20px;
+              padding: 20px 43px;
+                font-weight: 700;
+                }
+            .subscribe-email{display: flex;justify-content: center;
+            gap: 20px;}
+            .latest-deal{background-image: url('../images/Rectangle\ 9.png');
+                background-repeat: no-repeat;
+                background-position: center;justify-content: center;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+            .latest-deal-title{color: #272727;
+                text-align: center;
+                font-family: Lato;
+                font-size: 40px;
+                
+                font-weight: 800;
+                line-height: normal;}
+                .latest-deal-description{color: rgba(39, 39, 39, 0.60);
+                    text-align: center;
+                    font-family: Lato;
+                    font-size: 18px;
+                    
+                    font-weight: 400;
+                    line-height: 30px;}
+                    .latest-deal-content{padding: 100px 80px 10px 80px;}
+                    .subscribe-email{padding: 5px 80px 80px 80px;}
+                    .footer{background-color: black; padding: 7% 0% 5%;}
+                    .footer-title{color: #FFF;
+                        font-family: Lato;
+                        font-size: 48px;
+                        text-align: center;
+                        font-weight: 800;
+                        }
+                        .flower{color: #E55473;
+                            font-family: Lato;
+                            font-size: 48px;
+                           
+                            font-weight: 800;
+                            }
+                            .footer-description{color: rgba(255, 255, 255, 0.90);
+                                text-align: center;
+                                font-family: Lato;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 30px;
+                            margin-top: 30px;}
+                                .conclusion{color: rgba(255, 255, 255, 0.40);
+                                    text-align: center;
+                                    font-family: Lato;
+                                    font-size: 16px;
+                                   
+                                    font-weight: 400;
+                                    line-height: normal;margin-top: 30px;}
