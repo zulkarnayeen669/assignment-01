@@ -1,0 +1,85 @@
+body{font-family: 'Open Sans', sans-serif;margin:0px
+;}
+
+.banner {display: flex;
+    padding: 30px 30px 0px 150px;
+
+    align-items: center;
+        justify-content: space-between;}
+        .banner-title{color: #272727;
+            font-family: Lato;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;}
+        .banner-content{color: rgba(39, 39, 39, 0.60);
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; }
+            .banner .title-flower{width:500px}
+        .button-primary{border-radius: 8px;
+            background: #E55473;color: #FFF;
+            font-family: Lato;
+            font-size: 20px;
+          padding: 20px 43px;
+            font-weight: 700;
+            border: none;
+          }
+          .banner-des{max-width: 500px;}
+          .title-flower{width: 635px;
+            height: 800px;
+            flex-shrink: 0;}
+          .header{background: rgba(229, 84, 115, 0.10);border: none;}
+
+/* HoT Deal section */
+          .hot-deal-content{text-align: center;margin: 300px 300px;}
+          .hot-deal{display: flex;border-radius: 8px;
+            background-color: rgba(228, 25, 32, 0.091);
+           
+            padding: 30px 30px 0px 150px;
+            
+            align-items: center;
+            justify-content: space-between;}
+            .hot-deal-title{color: #272727;
+                font-family: Lato;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;}
+                .off{color: #E55473;
+                    font-family: Lato;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;}
+                    .hot-deal-description{color: rgba(39, 39, 39, 0.60);
+                        text-align: center;
+                        font-family: Lato;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;width: 594px;
+                    margin-bottom: 40px;}
+                    .hot-deal-image{margin: 100px 30px}
+                    /* Social */
+                    .social-title{color: #272727;
+                        text-align: center;
+                        font-family: Lato;
+                        font-size: 40px;
+                        
+                        font-weight: 800;
+                    }
+                    .social-platform{padding: 200px 400px 30px;}
+                        .social-description{color: rgba(39, 39, 39, 0.60);
+                            text-align: center;
+                            font-family: Lato;
+                            font-size: 18px;
+                            
+                            font-weight: 400;
+                            line-height: 30px;
+                    }
+                    /* Example-Flowers */
+                    .example-pic{ display: flex;
+                        gap: 24px;}
